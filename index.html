@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/form.css">
+    <script defer src="js/script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form class=" mainForm js-maiForm">
+            <fieldset class="form__fieldset">
+                <legend>Kalkulator walut</legend>
+
+                <label class="form__label">Wpisz kwotę w PLN</label>
+
+                <input class="form__input js-form__input" placeholder="wpisz kwotę" type="number" min="1" value=""
+                    required name="pln">
+            </fieldset>
+
+            <fieldset>
+
+                <label class="form__label">Wybierz walutę na jaką chcesz przeliczyć</label>
+
+
+                <select class="form__select js__select--currency">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="sek">SEK</option>
+                    <option value="chf">CHF</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset class="fieldset__result">
+                <legend>Po przeliczeniu</legend>
+
+                <p class="formResult__paragraph js-result__paragraph">Otrzymasz:</p>
+
+            </fieldset>
+
+            <button class="form__button js-convert__button" type="submit">Przelicz</button>
+            <button class="form__button js-remove__button" type="reset">Wyczyść formularz</button>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
