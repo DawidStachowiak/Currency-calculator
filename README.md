@@ -6,7 +6,7 @@
 
 ![currency calculator](https://github.com/DawidStachowiak/Currency-calculator/blob/main/img/myCantor.gif?raw=true)
 
-##Technologies
+## Technologies
 
 - HTML
 - CSS
