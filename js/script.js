@@ -1,6 +1,6 @@
 let jsSelect = document.querySelector(".js__select--currency");
 let jsForm = document.querySelector(".js-maiForm");
-let jsresult__paragraph = document.querySelector(".js-result__paragraph");
+let jsresultParagraph = document.querySelector(".js-result__paragraph");
 let submitButton = document.querySelector(".js-convert__button");
 let form__input = document.querySelector(".js-form__input");
 
@@ -21,30 +21,30 @@ jsForm.addEventListener("submit", (event) => {
         switch (currency) {
             case "usd":
                 result = (rates / priceUSD).toFixed(2);
-                jsresult__paragraph.innerText = "Otrzymasz: " + result;
+                jsresultParagraph.innerText = "Otrzymasz: " + result;
                 break;
 
             case "eur":
                 result = (rates / priseEUR).toFixed(2);
-                jsresult__paragraph.innerText = "Otrzymasz: " + result;
+                jsresultParagraph.innerText = "Otrzymasz: " + result;
                 break;
 
             case "gbp":
 
                 result = (rates / priceGBP).toFixed(2);
-                jsresult__paragraph.innerText = "Otrzymasz: " + result;
+                jsresultParagraph.innerText = "Otrzymasz: " + result;
                 break;
 
             case "sek":
 
                 result = (rates / priceSEK).toFixed(2);
-                jsresult__paragraph.innerText = "Otrzymasz: " + result;
+                jsresultParagraph.innerText = "Otrzymasz: " + result;
                 break;
 
             case "chf":
 
                 result = (rates / priceCHF).toFixed(2);
-                jsresult__paragraph.innerText = "Otrzymasz: " + result;
+                jsresultParagraph.innerText = "Otrzymasz: " + result;
                 break;
 
                
@@ -55,7 +55,7 @@ jsForm.addEventListener("submit", (event) => {
         }
     }
 
-    jsresult__paragraph.innerText =`${rates.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
+    jsresultParagraph.innerText =`${rates.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
 });
 
 
