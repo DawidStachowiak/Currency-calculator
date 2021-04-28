@@ -1,6 +1,9 @@
 # Currency-calculator
-
+## Preview
+GITHUB (https://dawidstachowiak.github.io/Currency-calculator/)
 ### My project in YOUCODE 
+
+This is my work done in the YOUCODE course. Simple currency calculator
 
 **How to use**
 
