@@ -47,12 +47,15 @@ jsForm.addEventListener("submit", (event) => {
                 jsresult__paragraph.innerText = "Otrzymasz: " + result;
                 break;
 
-            default:
-                jsresult__paragraph.innerText = "Brak podanego kursu waluty";
+               
+
+           
 
 
         }
     }
+
+    jsresult__paragraph.innerText =`${rates.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
 });
 
 
