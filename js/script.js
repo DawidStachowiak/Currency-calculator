@@ -58,18 +58,18 @@ jsForm.addEventListener("submit", (event) => {
 
 /////////////////////////////////////////
 
-var obj;
-const url = "http://api.nbp.pl/api/exchangerates/rates/c/usd/2016-04-04/?format=json";
-fetch(url)
-    .then(
-        response => response.json() // .json(), etc.
+//var obj;
+//const url = "http://api.nbp.pl/api/exchangerates/rates/c/usd/2016-04-04/?format=json";
+//fetch(url)
+  //  .then(
+    //    response => response.json() // .json(), etc.
         // same as function(response) {return response.text();}
-    ).then(
-        html => obj = mojafunkcja(html)
+    //).then(
+      //  html => obj = mojafunkcja(html)
 
-    );
+    //);
 
-function mojafunkcja(data) {
-    var cos = data.rates[0].bid;
-    console.log(cos);
-}
+//function mojafunkcja(data) {
+  //  var cos = data.rates[0].bid;
+    //console.log(cos);
+//}
