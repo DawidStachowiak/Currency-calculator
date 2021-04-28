@@ -3,7 +3,7 @@
 GITHUB (https://dawidstachowiak.github.io/Currency-calculator/)
 ### My project in YOUCODE 
 
-This is my work done in the YOUCODE course. Simple currency calculator
+This is my work done in the YOUCODE course. Using the calculator you can convert currencies that are given in the selection field
 
 **How to use**
 
