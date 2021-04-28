@@ -1,4 +1,7 @@
 # Currency-calculator
 
-## My project in YOUCODE 
-![Alt Text](../img.myCantor.gif)
+### My project in YOUCODE 
+
+**How to use**
+
+![currency calculator](https://github.com/DawidStachowiak/Currency-calculator/blob/main/img/myCantor.gif?raw=true)
