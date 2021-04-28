@@ -9,7 +9,13 @@ html {
 body {
     font-family: 'Robo Slab', serif;
     margin: 0 auto;
-    background-color: rgb(236, 235, 235);
+    background-color: rgb(43, 41, 41);
+    background-image: url("../img/pageBackground.png");
+    background-repeat: no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+   background-position:center;
+    
 }
 
 .container {
