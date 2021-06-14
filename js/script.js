@@ -3,7 +3,7 @@
 
 {
 
-    const calculateResult = (rates, currency) => {
+    const calculateResult = (amount, currency) => {
         const priceUSD = 3.80;
         const priseEUR = 4.55;
         const priceGBP = 5.23;
@@ -14,30 +14,30 @@
 
 
             case "usd":
-                return rates / priceUSD;
+                return amount / priceUSD;
 
 
 
             case "eur":
-                return rates / priseEUR;
+                return amount / priseEUR;
 
 
 
             case "gbp":
 
-                return rates / priceGBP;
+                return amount / priceGBP;
 
 
 
             case "sek":
 
-                return rates / priceSEK;
+                return amount / priceSEK;
 
 
 
             case "chf":
 
-                return rates / priceCHF;
+                return amount / priceCHF;
 
 
         }
@@ -56,11 +56,11 @@
 
 
             const currency = jsSelect.value;
-            const rates = +formInput.value;
-            const result = calculateResult(rates, currency);
+            const amount = +formInput.value;
+            const result = calculateResult(amount, currency);
 
 
-            jsresultParagraph.innerHTML = `${rates.toFixed(2)} PLN = <strong> ${result.toFixed(2)} ${currency}</strong>`;
+            jsresultParagraph.innerHTML = `${amount.toFixed(2)} PLN = <strong> ${result.toFixed(2)} ${currency}</strong>`;
             
 
 
